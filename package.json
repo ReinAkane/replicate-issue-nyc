@@ -1,0 +1,16 @@
+{
+  "name": "replicate-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "issue": "nyc npm test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "david": "^11.0.0",
+    "nyc": "^10.3.0"
+  }
+}
